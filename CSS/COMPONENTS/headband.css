@@ -1,0 +1,32 @@
+.headband {
+  background-color: #E3F3FA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 2rem;
+  height: 52px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.headband a {
+  color: #7ABDD4;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.headband a:hover {
+  background-color: #FFCEE3;
+  color: #b06080;
+}
