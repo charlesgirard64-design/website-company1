@@ -19,6 +19,7 @@
   flex-grow: 1;
   max-width: 280px;
   border: 1px solid rgba(0, 0, 0, 0.2)
+  transition: transform 0.3s ease;
 }
 
 .card img {
@@ -42,5 +43,9 @@
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: lighter ;
+}
+
+.card:hover {
+ transform: scale(1.05);
 }
 
